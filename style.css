@@ -76,3 +76,7 @@ body {
     filter: grayscale(90%);
     border: 2px solid snow;
 }
+h1 {
+    color: black;
+    font-weight: 700;
+}
