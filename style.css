@@ -50,17 +50,18 @@ h2 span {
     border: 5px solid red;
     border-style: double;
 }
-.toggler {
+span.toggler {
     border: 2px solid white;
     margin: 7px 0 10px 0;
+    display: block;
 }
-.toggler:nth-child(1){
+span.toggler:nth-child(1){
     transform: rotate(90deg);
     width: 69%;
     margin: 45% 21.8%;
     z-index: 1;
 }
-.toggler:nth-child(2){
+span.toggler:nth-child(2){
     transform: rotate(180deg);
     width: 45%;
     margin: -19% 15%;
@@ -68,7 +69,7 @@ h2 span {
     border-top-right-radius: 50% ;
     border-top-left-radius: 50% ;
 }
-.toggler:nth-child(3){
+span.toggler:nth-child(3){
     transform: rotate(180deg);
     width: 50%;
     margin: -85% 30%;
