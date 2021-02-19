@@ -1,0 +1,14 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white!important;
+    font-size: 1.2rem;
+}
