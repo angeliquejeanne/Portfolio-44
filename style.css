@@ -95,6 +95,7 @@ h1 {
     font-style: italic;
 }
 
+
 /* style btn */
 .btn{
     color: black;
@@ -105,4 +106,19 @@ h1 {
 .btn:hover{
     background-color: #9b8579;
     border: 2px dotted black;
+}
+
+/* */
+
+
+/* Form contact */
+.titreContact {
+    padding: 40px 0 50px 0;
+    margin-top: 100px;
+}
+#form_name, #form_lastname, #form_email, #form_message{
+    border: 2px solid red;
+    background-color: lightgrey;
+    color: black;
+    font-weight: 600;
 }
