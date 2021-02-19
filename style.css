@@ -72,7 +72,7 @@ span.toggler:nth-child(2){
 span.toggler:nth-child(3){
     transform: rotate(180deg);
     width: 50%;
-    margin: -85% 29%;
+    margin: -80% 29%;
     z-index: 3;
     border-bottom-right-radius: 50% ;
     border-bottom-left-radius: 50% ;
