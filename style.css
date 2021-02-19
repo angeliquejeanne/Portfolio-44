@@ -80,3 +80,17 @@ h1 {
     color: black;
     font-weight: 700;
 }
+.lead {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.lead span {
+    color: red;
+    font-size: 1.4rem;
+    border-bottom: 2px solid black;
+}
+.quote {
+    color: black;
+    font-size: 1.1rem;
+    font-style: italic;
+}
