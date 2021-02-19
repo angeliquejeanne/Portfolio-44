@@ -18,3 +18,54 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Navbar & menu bg */
+.navbar {
+    border-bottom: 1px solid snow;
+    background-color: black;
+}
+.navbar .nav-links {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: snow!important;
+    text-decoration: none;
+}
+.navbar .nav-links:hover {
+    color: lightgray!important;
+    border-top: 2px solid red;
+}
+
+.navbar-toggler-icon{
+    width: 50px;
+    height: 50px;
+    border: 5px solid red;
+    border-style: double;
+}
+.toggler {
+    border: 2px solid white;
+    margin: 7px 0 10px 0;
+}
+.toggler:nth-child(1){
+    transform: rotate(90deg);
+    width: 69%;
+    margin: 45% 21.8%;
+    z-index: 1;
+}
+.toggler:nth-child(2){
+    transform: rotate(180deg);
+    width: 45%;
+    margin: -19% 15%;
+    z-index: 2;
+    border-top-right-radius: 50% ;
+    border-top-left-radius: 50% ;
+}
+.toggler:nth-child(3){
+    transform: rotate(180deg);
+    width: 50%;
+    margin: -85% 30%;
+    z-index: 3;
+    border-bottom-right-radius: 50% ;
+    border-bottom-left-radius: 50% ;
+}
+
+/* Presentation */
