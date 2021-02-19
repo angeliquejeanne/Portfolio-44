@@ -18,6 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* general style */
 h2 span {
     color: red;
@@ -103,7 +104,6 @@ h1 {
     font-style: italic;
 }
 
-
 /* style btn */
 .btn{
     color: black;
@@ -128,7 +128,24 @@ h1 {
     color: snow;
 }
 
-/* About*/
+/* Portfolio */
+.card {
+    box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, 0.4);
+}
+.card:hover {
+    border: 2px solid red;
+}
+.filterImg {
+    filter: grayscale(65%);
+}
+.card-body {
+    background-color: black;
+}
+h4 span {
+    border-bottom: 2px solid red;
+}
+
+/* About */
 #about {
     background-color: lightgrey;
     color: black;
@@ -139,7 +156,6 @@ h1 {
 #about p {
     font-weight: 500;
 }
-
 
 /* Form contact */
 .titreContact {
