@@ -58,13 +58,13 @@ span.toggler {
 span.toggler:nth-child(1){
     transform: rotate(90deg);
     width: 69%;
-    margin: 45% 21.8%;
+    margin: 45% 21%;
     z-index: 1;
 }
 span.toggler:nth-child(2){
     transform: rotate(180deg);
     width: 45%;
-    margin: -19% 15%;
+    margin: -18% 15%;
     z-index: 2;
     border-top-right-radius: 50% ;
     border-top-left-radius: 50% ;
@@ -72,7 +72,7 @@ span.toggler:nth-child(2){
 span.toggler:nth-child(3){
     transform: rotate(180deg);
     width: 50%;
-    margin: -85% 30%;
+    margin: -85% 29%;
     z-index: 3;
     border-bottom-right-radius: 50% ;
     border-bottom-left-radius: 50% ;
