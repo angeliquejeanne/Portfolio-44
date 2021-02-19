@@ -94,3 +94,15 @@ h1 {
     font-size: 1.1rem;
     font-style: italic;
 }
+
+/* style btn */
+.btn{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px dotted snow;
+}
+.btn:hover{
+    background-color: #9b8579;
+    border: 2px dotted black;
+}
