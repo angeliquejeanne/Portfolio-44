@@ -22,6 +22,9 @@ body {
 h2 span {
     color: red;
 }
+.imgEffect {
+    filter: grayscale(95%);
+}
 
 
 /* Navbar & menu bg */
