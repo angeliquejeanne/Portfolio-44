@@ -69,3 +69,10 @@ body {
 }
 
 /* Presentation */
+.imgProfil {
+    margin-top: 25px;
+    height: 250px;
+    border-radius: 35%;
+    filter: grayscale(90%);
+    border: 2px solid snow;
+}
