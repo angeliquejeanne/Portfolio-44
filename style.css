@@ -113,7 +113,29 @@ h1 {
     border: 2px dotted black;
 }
 
-/* */
+.btn-send, .btn2 {
+    background-color: snow;
+    border: 2px dotted black;
+    color: black;
+    font-weight: 600;
+}
+.btn-send:hover, .btn2:hover {
+    background-color: black;
+    border: 2px dotted red;
+    color: snow;
+}
+
+/* About*/
+#about {
+    background-color: lightgrey;
+    color: black;
+}
+#about h2 {
+    font-weight: 700;
+}
+#about p {
+    font-weight: 500;
+}
 
 
 /* Form contact */
