@@ -160,7 +160,7 @@ h4 span {
 
 /* Form contact */
 #contact {
-    background-color: lightgrey;
+    background-color: lightgrey!important;
     color: black;
 }
 .titleContact {
